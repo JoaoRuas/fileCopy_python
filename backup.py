@@ -1,9 +1,5 @@
-import os
-import shutil
+import os, shutil, threading, time, sys
 from datetime import datetime
-import threading
-import time
-import sys
 
 # List all of the files from the folder in the provided location
 def lookupAllFiles(path : str) -> list:
